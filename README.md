@@ -11,7 +11,7 @@ I'm **Sayajirao Danke**
 
 ## 🚀 About Me
 
-I’m an **DevOps Engineer** with **1.10 years of hands-on experience** designing, automating, and operating **production-grade, scalable, and secure cloud infrastructure**.
+I’m an **DevOps Engineer** with **2.04 years of hands-on experience** designing, automating, and operating **production-grade, scalable, and secure cloud infrastructure**.
 
 I specialize in **AWS, Terraform, CI/CD automation, container orchestration (ECS & EKS), and cloud cost optimization**, with proven impact across **multiple client environments and production workloads**.
 

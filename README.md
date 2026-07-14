@@ -111,22 +111,6 @@ I specialize in **AWS, Terraform, Kubernetes (EKS), GitOps, CI/CD automation, ob
 
 ---
 
-## ⭐ Featured Project
-
-### **EasyShop — Cloud-Native GitOps Platform on AWS EKS**
-🔗 **[github.com/Sayajirao/tws-e-commerce-app_hackathon_Sayajirao](https://github.com/Sayajirao/tws-e-commerce-app_hackathon_Sayajirao)**
-
-End-to-end production-style deployment of a Next.js + MongoDB e-commerce app on AWS EKS:
-
-- **Infra as Code:** Terraform — VPC (2 AZs, public/private subnets, NAT), EKS cluster with IRSA/OIDC, S3 remote state
-- **GitOps CD:** GitHub Actions builds → Trivy CVE scan → push to Docker Hub → commits new image tag → **Argo CD auto-syncs** to the cluster
-- **One shared ALB** (path-based routing) serving the app + Grafana, Prometheus, Kibana & Argo CD dashboards
-- **Monitoring:** kube-prometheus-stack — Prometheus, Grafana dashboards, Alertmanager → Gmail alerts
-- **Logging:** ELK — Filebeat DaemonSet → Elasticsearch → Kibana
-- **Autoscaling & storage:** HPA + metrics-server, EBS gp3 volumes via CSI driver
-
----
-
 ## 🏢 Professional Experience
 
 ### **DevOps Engineer — CloudShastra Infotech Solutions**
@@ -172,6 +156,22 @@ End-to-end production-style deployment of a Next.js + MongoDB e-commerce app on 
 - Automated CI/CD across **GitLab, GitHub Actions & CircleCI**
 - Migrated **10+ Bitbucket repos to GitHub** (100% history preserved)
 - Automated SSL for **10+ domains**
+
+---
+
+## 💻 Personal Projects
+
+### **EasyShop — Cloud-Native GitOps Platform on AWS EKS**
+🔗 **[github.com/Sayajirao/tws-e-commerce-app_hackathon_EKS_Sayajirao](https://github.com/Sayajirao/tws-e-commerce-app_hackathon_EKS_Sayajirao)**
+
+End-to-end production-style deployment of a Next.js + MongoDB e-commerce app on AWS EKS:
+
+- **Infra as Code:** Terraform — VPC (2 AZs, public/private subnets, NAT), EKS cluster with IRSA/OIDC, S3 remote state
+- **GitOps CD:** GitHub Actions builds → Trivy CVE scan → push to Docker Hub → commits new image tag → **Argo CD auto-syncs** to the cluster
+- **One shared ALB** (path-based routing) serving the app + Grafana, Prometheus, Kibana & Argo CD dashboards
+- **Monitoring:** kube-prometheus-stack — Prometheus, Grafana dashboards, Alertmanager → Gmail alerts
+- **Logging:** ELK — Filebeat DaemonSet → Elasticsearch → Kibana
+- **Autoscaling & storage:** HPA + metrics-server, EBS gp3 volumes via CSI driver
 
 ---
 

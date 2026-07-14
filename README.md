@@ -3,7 +3,7 @@
 # Hello There 👋  
 I'm **Sayajirao Danke**  
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=0&color=2E9EF7&center=true&vCenter=true&width=600&duration=2000&lines=DevOps+Engineer;2+%2BYears+Hands-on+Experience;AWS+%7C+ECS+%7C+EKS+%7C+Terraform;CI%2FCD+%7C+Automation+%7C+Cost+Optimization)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=0&color=2E9EF7&center=true&vCenter=true&width=600&duration=2000&lines=DevOps+Engineer;2%2B+Years+Hands-on+Experience;AWS+%7C+EKS+%7C+Kubernetes+%7C+Terraform;GitOps+%7C+CI%2FCD+%7C+Observability+%7C+Cost+Optimization)](https://git.io/typing-svg)
 
 </div>
 
@@ -11,13 +11,15 @@ I'm **Sayajirao Danke**
 
 ## 🚀 About Me
 
-I’m an **DevOps Engineer** with **2+ years of hands-on experience** designing, automating, and operating **production-grade, scalable, and secure cloud infrastructure**.
+I'm a **DevOps Engineer** with **2+ years of hands-on experience** designing, automating, and operating **production-grade, scalable, and secure cloud infrastructure**.
 
-I specialize in **AWS, Terraform, CI/CD automation, container orchestration (ECS & EKS), and cloud cost optimization**, with proven impact across **multiple client environments and production workloads**.
+I specialize in **AWS, Terraform, Kubernetes (EKS), GitOps, CI/CD automation, observability, and cloud cost optimization**, with proven impact across **multiple client environments and production workloads**.
 
 - 🔭 Managing **AWS production infrastructure (5+ environments)**
+- ☸️ Running **Kubernetes workloads on EKS** — GitOps deployments with **Argo CD**
 - ⚙️ Automating infrastructure using **Terraform & CloudFormation**
-- 🚀 Building **CI/CD pipelines** with GitLab CI, GitHub Actions & CodePipeline
+- 🚀 Building **CI/CD pipelines** with GitHub Actions, GitLab CI & CodePipeline
+- 📊 Setting up **observability stacks** — Prometheus, Grafana, ELK
 - 📉 Driving **cost optimization & reliability (saved $250K+ annually)**
 - 🤝 Mentoring interns & leading DevOps best practices
 
@@ -35,11 +37,15 @@ I specialize in **AWS, Terraform, CI/CD automation, container orchestration (ECS
 ### **Containerization & Orchestration**
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" width="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/helm/helm-original.svg" width="40"/>
 </p>
 
-- Docker  
+- Docker & Docker Hub  
+- Kubernetes — Deployments, StatefulSets, DaemonSets, HPA, Ingress  
+- AWS EKS (IRSA, OIDC, managed node groups, EBS CSI, ALB Controller)  
 - AWS ECS / Fargate  
-- AWS EKS (IRSA, PV/PVC, ConfigMaps, Secrets)
+- Helm (kube-prometheus-stack, app charts)
 
 ---
 
@@ -49,38 +55,44 @@ I specialize in **AWS, Terraform, CI/CD automation, container orchestration (ECS
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40"/>
 </p>
 
-- Terraform (Modular IaC – 15+ reusable modules)
+- Terraform (Modular IaC – 15+ reusable modules, S3 remote state)
 - AWS CloudFormation
 
 ---
 
-### **CI/CD & Automation**
+### **CI/CD & GitOps**
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gitlab/gitlab-original.svg" width="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/argocd/argocd-original.svg" width="40"/>
   <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/circleci/circleci-plain.svg" width="40"/>
 </p>
 
-- GitHub Actions  
+- GitHub Actions (build → scan → push → auto-deploy)
+- Argo CD — GitOps continuous delivery on EKS
 - GitLab CI/CD  
 - AWS CodePipeline  
 - CircleCI  
 - Python & Bash scripting
 
-
 ---
 
-### **Monitoring, Security & Observability**
+### **Monitoring, Observability & Security**
 <p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prometheus/prometheus-original.svg" width="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/grafana/grafana-original.svg" width="40"/>
+  <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="45"/>
 </p>
 
+- Prometheus + Grafana (metrics, dashboards, Alertmanager e-mail alerts)
+- ELK Stack — Filebeat → Elasticsearch → Kibana (centralized logging)
+- Trivy (container image CVE scanning in CI)
 - AWS CloudWatch (Custom Metrics, Alarms, SNS)
 - IAM, RBAC, IRSA
 - AWS WAF, Secrets Manager
 - VPC Flow Logs, SSL/TLS
-
 
 ---
 
@@ -88,12 +100,30 @@ I specialize in **AWS, Terraform, CI/CD automation, container orchestration (ECS
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="40"/>
 </p>
 
 - RDS MySQL & PostgreSQL
+- MongoDB (StatefulSet on EKS with EBS persistent volumes)
 - DocumentDB
 - DynamoDB
 - Qdrant (Vector DB on EKS)
+
+---
+
+## ⭐ Featured Project
+
+### **EasyShop — Cloud-Native GitOps Platform on AWS EKS**
+🔗 **[github.com/Sayajirao/tws-e-commerce-app_hackathon_Sayajirao](https://github.com/Sayajirao/tws-e-commerce-app_hackathon_Sayajirao)**
+
+End-to-end production-style deployment of a Next.js + MongoDB e-commerce app on AWS EKS:
+
+- **Infra as Code:** Terraform — VPC (2 AZs, public/private subnets, NAT), EKS cluster with IRSA/OIDC, S3 remote state
+- **GitOps CD:** GitHub Actions builds → Trivy CVE scan → push to Docker Hub → commits new image tag → **Argo CD auto-syncs** to the cluster
+- **One shared ALB** (path-based routing) serving the app + Grafana, Prometheus, Kibana & Argo CD dashboards
+- **Monitoring:** kube-prometheus-stack — Prometheus, Grafana dashboards, Alertmanager → Gmail alerts
+- **Logging:** ELK — Filebeat DaemonSet → Elasticsearch → Kibana
+- **Autoscaling & storage:** HPA + metrics-server, EBS gp3 volumes via CSI driver
 
 ---
 
@@ -149,6 +179,7 @@ I specialize in **AWS, Terraform, CI/CD automation, container orchestration (ECS
 
 - 🏅 **AWS Certified Cloud Practitioner**
 - 🏅 **AWS Solutions Architect – Associate (in progress)**
+- 🏅 **CKA — Certified Kubernetes Administrator (in progress)**
 
 ---
 

@@ -32,6 +32,9 @@ I specialize in **AWS, Terraform, Kubernetes (EKS), GitOps, CI/CD automation, ob
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40"/>
 </p>
 
+- AWS (primary — EC2, ECS, EKS, Lambda, RDS, S3, CloudFront, WAF)
+- Aruba Cloud (managed & migrated workloads to AWS)
+
 ---
 
 ### **Containerization & Orchestration**
@@ -162,7 +165,9 @@ I specialize in **AWS, Terraform, Kubernetes (EKS), GitOps, CI/CD automation, ob
 ## 💻 Personal Projects
 
 ### **EasyShop — Cloud-Native GitOps Platform on AWS EKS**
-🔗 **[github.com/Sayajirao/tws-e-commerce-app_hackathon_EKS_Sayajirao](https://github.com/Sayajirao/tws-e-commerce-app_hackathon_EKS_Sayajirao)**
+
+**GitHub:**
+- **EKS:** https://github.com/Sayajirao/tws-e-commerce-app_hackathon_EKS_Sayajirao
 
 End-to-end production-style deployment of a Next.js + MongoDB e-commerce app on AWS EKS:
 
